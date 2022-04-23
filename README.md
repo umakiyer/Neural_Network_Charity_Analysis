@@ -7,7 +7,8 @@ With our knowledge of machine learning and neural networks,  used the features i
 * Data Preprocessing:
 
     * What variable(s) are considered the target(s) for your model?
-    IS_SUCCESSFUL- was the target variable.
+
+        IS_SUCCESSFUL- was the target variable.
 
     * What variable(s) are considered to be the features for your model?
 
@@ -20,7 +21,7 @@ With our knowledge of machine learning and neural networks,  used the features i
 * Compiling, Training, and Evaluating the Model
     * How many neurons, layers, and activation functions did  you select for your neural network model, and why?
     
-        The number of neurons used were 85 for fiest hidden layer & 55 for the second layer. Selected 2 times the feature layer for the neurons. Used RElu activation function to allow our hidden layer to identify and train on nonlinear relationships in the dataset.
+        The number of neurons used were 85 for first hidden layer & 55 for the second layer. Selected 2 times the feature layer for the neurons. Used RElu activation function to allow our hidden layer to identify and train on nonlinear relationships in the dataset.
 
         ![image](./IMAGES/model1.PNG)
         
@@ -32,7 +33,7 @@ With our knowledge of machine learning and neural networks,  used the features i
 
     * What steps did you take to try and increase model performance?
 
-        Increased the number of hidden layers to 3. Also made the number of neurons for the hidden layer multiples of the feature. The first hidden layer it was 3 times the input_dim, for the second , 2 times the input_dim & for the third it was equal to input_dim. Dropped the Status & Special consideration column . Added & binned the Name column. 
+        Increased the number of hidden layers to 3. Also made the number of neurons for the hidden layer multiples of the feature. The first hidden layer it was 3 times the input_dim, for the second 2 times the input_dim & for the third it was equal to input_dim. Dropped the Status & Special consideration column . Also added & binned the Name column. 
 
         ![image](./IMAGES/model2.PNG) 
 
@@ -44,9 +45,9 @@ With our knowledge of machine learning and neural networks,  used the features i
 
 ### Summary
 
-    The deep learning model increased the accuracy slightly but it was slow when hidden layer was increased to 3. The random forest model could have done & acheived the same result.It would have run efficiently on the large datasets. Below is the summary of the optimization result with the deep learning .
+        The deep learning model increased the accuracy slightly but it was slow when hidden layer was increased to 3. The random forest model could have done & acheived the same result.It would have run efficiently on the large datasets. Below is the summary of the optimization result with the deep learning .
 
-![image](./IMAGES/Summary.PNG)
+   ![image](./IMAGES/Summary.PNG)
 
 
 
