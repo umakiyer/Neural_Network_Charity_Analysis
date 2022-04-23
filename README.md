@@ -33,19 +33,22 @@ With our knowledge of machine learning and neural networks,  used the features i
 
     * What steps did you take to try and increase model performance?
 
-        Increased the number of hidden layers to 3. Also made the number of neurons for the hidden layer multiples of the feature. The first hidden layer it was 3 times the input_dim, for the second 2 times the input_dim & for the third it was equal to input_dim. Dropped the Status & Special consideration column . Also added & binned the Name column. 
+        1. For first attempt at optimization , increased the hidden layer to 3. Used Relu linear activation function. There was not much differnce in accuracy> it was 72% 
 
-        ![image](./IMAGES/model2.PNG) 
+        2. For second  attempt at optimization , increased to neurons to 100 & 50. Increased the hidden layer to 3. Used Relu, Linear, Tanh linear activation function. There was not much differnce in accuracy it was still 72%
 
-       
-        
-        Was able to get 79% accuracy with 50% loss.
+        3. Increased the number of hidden layers to 3. Also made the number of neurons for the hidden layer multiples of the feature. The first hidden layer it was 3 times the input_dim, for the second layer 2 times the input_dim & for the third layer  was equal to input_dim. Dropped the Status & Special consideration column . Also added & binned the Name column. 
 
-        ![image](./IMAGES/model2accuracy.PNG)
+            ![image](./IMAGES/model2.PNG) 
+
+               
+            Was able to get 79% accuracy with 50% loss.
+
+            ![image](./IMAGES/model2accuracy.PNG)
 
 ### Summary
 
-        The deep learning model increased the accuracy slightly but it was slow when hidden layer was increased to 3. The random forest model could have done & acheived the same result.It would have run efficiently on the large datasets. Below is the summary of the optimization result with the deep learning .
+        The deep learning model increased the accuracy slightly but it was slow when hidden layer was increased to 3. The random forest model could have done & acheived the same result. It would have run efficiently on the large datasets. Below is the summary of the optimization result with the deep learning.
 
    ![image](./IMAGES/Summary.PNG)
 
