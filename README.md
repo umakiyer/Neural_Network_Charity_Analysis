@@ -46,10 +46,10 @@ With our knowledge of machine learning and neural networks,  used the features i
 
             ![image](./IMAGES/model2accuracy.PNG)
 
-### Summary
+### Summary:
+The deep learning model increased the accuracy slightly but it was slow when hidden layer was increased to 3. The random forest model could have done & acheived the same result. It would have run efficiently on the large datasets. Below is the summary of the optimization result with the deep learning.
 
-        The deep learning model increased the accuracy slightly but it was slow when hidden layer was increased to 3. The random forest model could have done & acheived the same result. It would have run efficiently on the large datasets. Below is the summary of the optimization result with the deep learning.
-
+        
    ![image](./IMAGES/Summary.PNG)
 
 
